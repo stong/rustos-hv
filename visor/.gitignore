@@ -1,0 +1,4 @@
+/target
+/build
+#.gdbinit
+.gdb_history

@@ -1,0 +1,2 @@
+@echo off
+"%programfiles%\qemu\qemu-system-aarch64.exe" -nographic -M raspi3 -serial null -serial mon:stdio -kernel "C:\Users\User\Dropbox\School\rustos\visor\build\kernel.bin" -drive file=\\.\PhysicalDrive1,format=raw,if=sd %*
